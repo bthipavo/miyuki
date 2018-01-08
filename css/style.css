@@ -1,0 +1,58 @@
+
+	body, html {
+
+		background-color: #e4b8dc;
+		height: 100%;
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	body.landing #header {
+		position: absolute;
+		/*background-color: transparent;*/
+		left: 0;
+		top: 0;
+	}
+
+	#header {
+		background-color: #bc5995
+;
+		z-index: 1000;
+		width: 100%;
+	}
+
+	#banner {
+		background-color: #bc5995
+;
+		background: url("../images/Picture1.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		text-align: center;
+		padding: 10em 0em 10em;
+	}
+
+	#banner .container {
+		background-color: #ffffff;
+		position: relative;
+	}
+
+	#footer {
+		position: relative;
+		background-color: #000000;
+		text-align: center;
+		width: 100%;
+		padding: 6em 0em 4em;
+		margin: 2em 0 0 0;
+	}
+
+	#main {
+		flex: 1 0 auto;
+	}
+
+/*	#footer .container {
+		background-color: #000000;
+	}*/
